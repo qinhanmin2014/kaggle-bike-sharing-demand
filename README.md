@@ -4,9 +4,9 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 
 - data/ - the datasets
 - submission/ - output of the solution
-- Data Visualization.ipynb - data visualization
+- [Data Visualization.ipynb](https://nbviewer.jupyter.org/github/qinhanmin2014/kaggle-bike-sharing-demand/blob/master/Data%20Visualization.ipynb) - data visualization
 - GBDT_RF.py - solution based on Gradient Boost and Random Forest, rank 29/3251 within 45 lines of code
-- GBDT_RF.ipynb - detailed solution with some explanations 
+- [GBDT_RF.ipynb](https://nbviewer.jupyter.org/github/qinhanmin2014/kaggle-bike-sharing-demand/blob/master/GBDT_RF.ipynb) - detailed solution with some explanations 
 
 ### Data Fields
 - datetime - hourly date + timestamp  
