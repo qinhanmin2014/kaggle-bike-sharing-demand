@@ -25,3 +25,7 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 - casual - number of non-registered user rentals initiated
 - registered - number of registered user rentals initiated
 - count - number of total rentals
+
+### Acknowledgment
+
+- Inspired by https://github.com/logicalguess/kaggle-bike-sharing-demand
