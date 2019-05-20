@@ -44,7 +44,7 @@ for name, reg in regs.items():
     pred_registered = np.exp(pred_registered) - 1
     pred_registered[pred_registered < 0] = 0
     preds[name] = pred_casual + pred_registered
-pred = 0.7 * preds['gbdt'] + 0.3 * preds['rf']
+pred = 0.6 * preds['gbdt'] + 0.4 * preds['rf']
 submission = pd.DataFrame({'datetime': test.datetime, 'count': pred},
                           columns=['datetime', 'count'])
 submission.to_csv("submission/submission.csv", index=False)
